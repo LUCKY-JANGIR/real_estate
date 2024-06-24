@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
   const navclasses = {
-    link: " text-white duration-200 px-4 py-0.5 rounded hover:text-cyan-400",
+    link: " text-white duration-200 px-4 py-0.5 rounded hover:text-[#11705a]",
     header:
-      " bg-gradient-to-r from-cyan-600 to-blue-600  grid grid-cols-3 p-1 justify-center align-middle",
+      " bg-gradient-to-r from-[#00bbdd] to-[#00d072]  rounded-xl m-1 grid grid-cols-3 p-1 justify-center align-middle",
     h1: "capitalize   text-sm sm:text-lg font-bold ",
     span1: "text-white/80",
-    span2: "text-blue-200/80",
+    span2: "text-[#00ffe4]",
     search:
-      " p-1 w-[25rem]  outline-1  outline-none  bg-white bg-opacity-25 border-0  focus:bg-opacity-50 placeholder-cyan-300 focus:placeholder-cyan-600",
+      " px-3 py-1 w-[25rem]  outline-1  rounded-xl	 outline-none  bg-white bg-opacity-25 border-0  focus:bg-opacity-50 placeholder-[rgb(161 201 250)] focus:placeholder-cyan-600",
     ul: "flex capitalize justify-end",
   };
   return (

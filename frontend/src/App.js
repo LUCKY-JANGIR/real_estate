@@ -8,6 +8,7 @@ import Profile from "./Screens/Profile";
 function App() {
   return (
     <>
+      <div classname="bg-white">
       <Router>
         <Nav />
         <Routes>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
         </Routes>
       </Router>
+      </div>
     </>
   );
 }

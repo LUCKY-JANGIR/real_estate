@@ -1,1 +1,1 @@
-{"scripts":{"frontend":"cd frontend && npm  start","backend":"cd backend && nodemon server.js"}}
+{"scripts":{"frontend":"cd frontend && npm  start","backend":"cd backend && nodemon server.js"},"dependencies":{"dotenv":"^16.4.5"}}
